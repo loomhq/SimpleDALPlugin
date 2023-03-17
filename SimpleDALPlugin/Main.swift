@@ -11,6 +11,7 @@ import CoreMediaIO
 
 @_cdecl("simpleDALPluginMain")
 public func simpleDALPluginMain(allocator: CFAllocator, requestedTypeUUID: CFUUID) -> CMIOHardwarePlugInRef {
-    NSLog("simpleDALPluginMain")
+    // Loom: Silence the logs.
+    // NSLog("simpleDALPluginMain")
     return pluginRef
 }

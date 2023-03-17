@@ -9,5 +9,6 @@
 import Foundation
 
 func log(_ message: Any = "", function: String = #function) {
-    NSLog("SimpleDALPlugin: \(function): \(message)")
+    // Loom: Silence the logs.
+    // NSLog("SimpleDALPlugin: \(function): \(message)")
 }
